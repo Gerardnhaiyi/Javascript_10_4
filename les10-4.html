@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang='nl'>
+  <head>
+    <meta charset='utf-8'>
+    <title>Javascript Study Hfdstk 10</title>
+
+    <!-- CSS -->
+    <style>
+		body 
+    {
+			font-family: Helvetica, Arial, sans-serif;
+		}
+
+		/* groto foto */
+		#container 
+    {
+			height: 300px;
+		}
+		#container img
+    {
+			display: block;
+      height: 300px;
+			width: 400px;
+			border: 4px solid #aaa;
+		}
+
+		/* thumbnail strip */
+		#strip
+    {
+			background-color:#ccc;
+			margin-top:50px;
+			padding: 5px;
+		}
+
+		#strip img
+    {
+			width:100px;
+      height:75px;
+			margin: 0 5px;
+			cursor: pointer;
+			border: 1px solid #222;
+		}
+    
+    #title text
+    {
+      fontSize: 16px;
+    }
+    </style>
+    <!-- jQuery insluiten -->
+    <script src='http://code.jquery.com/jquery-3.7.0.min.js'></script>
+		<noscript>Sorry, JavaScript  is disabled in your browser!</noscript>  
+		<script src='script10-4.js'></script> 
+  </head>
+  <body>
+    <h2>Huiswerkopgave 10-4</h2>
+    <div id='container'>
+      <img src='img/kitten1.jpg' title='Zo speels' alt='' />
+    </div>
+    <br>
+    <div id = 'title'></div>
+    <div id='strip'>
+      <img src='img/kitten1.jpg' title='Zo speels' alt='' />
+      <img src='img/kitten2.jpg' title='Zo oplettend' alt='' />
+      <img src='img/kitten3.jpg' title='Zo moei' alt='' />
+      <img src='img/puppy1.jpg'  title='Een portret' alt=''/>
+      <img src='img/puppy2.jpg' title='Zo onschuldig' alt='' />
+      <img src='img/puppy3.jpg' title='Allen op een rij' alt='' />
+    </div>
+  </body>
+</html>
